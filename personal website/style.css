@@ -1,0 +1,119 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#header{
+    height: 100hv;
+    background-image: url("D:\Downloads\personal website\8.png");
+    background-position: right;
+    background-size: cover;
+    
+}
+.container{
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.header-text{
+    max-width: 350px;
+    margin-top: 50px;
+    position:absolute;
+    top: 250px;
+    left: 250px;
+
+}
+h1{
+    font-size: 34px;
+}
+.btn{
+    padding: 18px 30px;
+    margin-top: 20px;
+    background: transparent;
+    outline: none;
+    border: 2px solid #f6fc92;
+    font-weight: bold;
+    cursor: pointer;
+}
+p{
+    font-size: 15px;
+    line-height: 18px;
+    color: #777;
+}
+header-text button{
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.topnav{
+    position: absolute;
+    top: 40px;
+    left: 300px;
+    justify-content: center;
+    text-align:center;
+}
+.topnav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+       
+}
+.topnav li{
+    text-decoration: none;
+    display: inline-block;
+}
+.topnav a{
+    text-decoration: none;
+    color: #EABD34;
+    width: 150px;
+    display: block;
+    margin: 20px 20px;
+    text-transform: uppercase;
+}
+/*next page*/
+#about{
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.abt-left img{
+    width: 100%;
+}
+.abt-right{
+    flex-basis: 50%;
+    top: 100px;
+}
+.about-text{
+    max-width: 500px;
+    margin-right: 100px;
+    display: inline-block;
+    position: absolute;
+    top: 1100px;
+    right: 90px;
+    text-align: right;
+}
+/*--PROJECTS--*/
+#projects{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.projects-row{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.projects-col{
+    flex-basis: 25%;
+    text-align: center;
+}
+.project-col img{
+    width: 100px;
+}
+.project-col h4{
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 400;
+}
